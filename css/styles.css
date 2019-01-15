@@ -1,6 +1,14 @@
 html{
     background-color: #D47677;
 }
+#fname {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 8px;
+}
+input{
+    width: 100%;
+}
 
 
 
