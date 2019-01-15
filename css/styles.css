@@ -1,3 +1,9 @@
+html{
+    background-color: #D47677;
+}
+
+
+
 /* a:visited {
     font-size: 50px;
     color:pink;
@@ -6,10 +12,3 @@
 a:hover {
 
 } */
-
-html{
-    background-color: #D47677;
-}
-p{
-    font-size:  2em;
-}
