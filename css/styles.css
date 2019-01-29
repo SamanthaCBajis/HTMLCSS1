@@ -1,22 +1,62 @@
-html{
+body{
     background-color: #D47677;
-}
-#fname {
-    width: 100%;
-    padding: 20px 20px;
-    margin: 8px 8px;
-}
-input{
-    width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
-
-
-/* a:visited {
-    font-size: 50px;
-    color:pink;
+.form {
+    background-color: #F0F0F0;
+    position: relative;
+    /* left: 50%;  Moves it all the way to the right of the screen */
+    transform: translateX(73%);
+    width: 42%; /* Moved heading and button to center of box */
+    height: 380px; /* Made the box longer */
+    margin-top: 10%;
+    box-shadow: 5px 10px 18px #46434349;
 }
 
-a:hover {
+.form_heading {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #7E7E7E;
+}
 
-} */
+.form_input {
+    border: none;
+    width: 70%;
+    margin-left: 15%;
+    height: 50px;
+    margin-bottom: 18px;
+    border: 1px solid rgba(170, 170, 170, 0.568);
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: rgba(170, 170, 170, 0.568);
+
+}
+    
+.form_button {
+    text-transform: uppercase;
+    display: block;
+    background-color: rgb(83, 216, 207);
+    color: white;
+    margin: auto;
+    margin-top: 15px; 
+    padding: 10px;
+    width: 20%;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 2px;
+
+}
+
+div {
+    margin-top: 5%;
+    margin-left: 15%;
+    color: rgba(170, 170, 170, 0.568);
+    zoom: 1.5;
+    font-size: 8px;
+}
